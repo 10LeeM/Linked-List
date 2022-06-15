@@ -39,7 +39,9 @@ namespace Linked_List
                 list.AddLast("Customer J");
                 Display(list, "Change customer G to Customer J");
 
-
+                //Remove node with the specified value
+                list.Remove("Customer B");
+                Display(list, "Custoemr B removed fro the list");
                 //List 2
                 LinkedList<string> purchases = new LinkedList<string>();
 
