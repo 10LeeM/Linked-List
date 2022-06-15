@@ -42,6 +42,15 @@ namespace Linked_List
                 //Remove node with the specified value
                 list.Remove("Customer B");
                 Display(list, "Custoemr B removed fro the list");
+
+                //Cast the linked list to Icollection 
+                //Add method adds the node to the end of the list
+
+                list.RemoveLast();
+                ICollection<string> icoll = list;
+                icoll.Add("Customer S");
+                Display(list, "Remove the last node, cast to ICollection, add an elemnt to the ast node");
+
                 //List 2
                 LinkedList<string> purchases = new LinkedList<string>();
 
