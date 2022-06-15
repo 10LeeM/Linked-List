@@ -14,6 +14,7 @@ namespace Linked_List
                 
                 //Create a new list of customers
                 LinkedList<string> list = new(customers);
+
                 //Enumarate  the list items without disturbing its contents
                 Display(list, "Customers list");
                
